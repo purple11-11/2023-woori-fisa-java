@@ -1,0 +1,14 @@
+import common.Block;
+import common.CalmModerator;
+import common.Player;
+
+public class Main {
+
+	public static void main(String[] args) {
+	Block block = new Block();
+	Player player = new Player();
+	
+	System.out.println(block.generateFirst());
+	System.out.println(player.pickFirst(blackhole));
+	}
+}

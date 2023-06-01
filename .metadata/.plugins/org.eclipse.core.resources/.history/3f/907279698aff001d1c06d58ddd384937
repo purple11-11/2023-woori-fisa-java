@@ -1,0 +1,13 @@
+import common.ActiveModerator;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ActiveModerator activeModerator = new ActiveModerator();
+		activeModerator.enterance();
+		activeModerator.guideFirstTurn();
+		activeModerator.guidePick("ㅇㅇ");
+		activeModerator.guideEnd("럭키");
+	}
+
+}

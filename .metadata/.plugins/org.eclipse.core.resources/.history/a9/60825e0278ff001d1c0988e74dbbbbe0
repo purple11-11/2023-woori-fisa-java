@@ -1,0 +1,18 @@
+package common;
+
+import java.util.ArrayList;
+
+public class BlockGenerator {
+	private final int min = 0;
+	private final int max = 11;
+	private final int firstPickRange = 4;
+	
+	public ArrayList<Integer> generateFirst() {
+		return null;
+		
+	}
+	public int generateOne() {
+		return 0;
+		
+	}
+}

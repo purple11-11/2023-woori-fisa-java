@@ -1,0 +1,33 @@
+package common;
+
+import java.util.ArrayList;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Player implements Person {
+
+	private String name;
+
+	private ArrayList<Integer> blocks = new ArrayList<Integer>();
+
+	@Override
+	public void enterance() {
+		// 규칙 이해 확인
+
+	}
+
+	public void sort() {
+
+	}
+
+	public void pickFirst() {
+
+	}
+
+	public void picOne() {
+
+	}
+
+}

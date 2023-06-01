@@ -1,0 +1,61 @@
+package common;
+
+import java.util.ArrayList;
+
+public class CalmModerator extends Moderator {
+
+	@Override
+	public void enterance() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void guideFirstTurn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void guidePick(String playerName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void guideGuess(String playerName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void guideCorrect(String playerName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void guideKeepGoing() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void guideWrong(String playerName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void guideEnd(String playerName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean judge(ArrayList<Integer> blocks, int index, int num) {
+		// TODO Auto-generated method stub
+		return super.judge(blocks, index, num);
+	}
+
+}

@@ -1,0 +1,66 @@
+package game;
+
+import common.Block;
+import common.Moderator;
+import common.Player;
+
+public class Game {
+	private Player player1;
+	private Player player2;
+	private Moderator moderator;
+	private Block blockGenerator;
+	
+	public void startGame() {
+		
+	}
+	
+	public void playGame() {
+		
+	}
+	
+	public void endGame() {
+		
+	}
+	
+	public void enterPlayer() {
+		
+	}
+	
+	public void selectModerator() {
+		
+	}
+	
+	public void firstTurn() {
+		
+	}
+	
+	public void pickOne() {
+		
+	}
+	
+	public void guess() {
+		
+	}
+	
+	public void correct() {
+		
+	}
+	public void openOpponentBlock() {
+		
+	}
+	public void stopOrGoing() {
+		
+	}
+	public void wrong() {
+		
+	}
+	public void openMineBlock() {
+		
+	}
+	public void checkNotOpen() {
+		
+	}
+	public void askContinue( ) {
+		
+	}
+}

@@ -1,0 +1,17 @@
+import common.CalmModerator;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CalmModerator calmModerator = new CalmModerator();
+		
+		calmModerator.enterance();
+		calmModerator.guideFirstTurn();
+		calmModerator.guideGuess("ff");
+		calmModerator.guideCorrect("ss");
+		calmModerator.guideKeepGoing();
+		calmModerator.guideWrong("rr");
+		calmModerator.guideEnd("dd");
+	}
+
+}

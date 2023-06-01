@@ -1,0 +1,26 @@
+package common;
+
+import java.util.ArrayList;
+
+public abstract class Moderator implements Person {
+
+	private String personality;
+	
+	public abstract void enterance();
+	
+	public abstract void guideStart(String player1Name, String player2Name);
+	
+	public abstract void guideFirstTurn();
+	
+	public abstract void guidePick(String playerName);
+	
+	public abstract void guideGuess(String playerName);
+	
+	public abstract void guideCorrect(String player1Name, String player2Name);
+	
+	public abstract void guideWrong(String playerName);
+	
+	public abstract void guideEnd(String playerName);
+	
+	public boolean judge(ArrayListst<Integer>, int index, int num);
+}
