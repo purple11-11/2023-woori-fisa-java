@@ -1,0 +1,10 @@
+package dev.syntax.step02logging;
+
+public class Step01Loggin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

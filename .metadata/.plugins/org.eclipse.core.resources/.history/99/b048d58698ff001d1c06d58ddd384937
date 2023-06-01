@@ -1,0 +1,23 @@
+package common;
+
+import java.util.ArrayList;
+import lombok.Getter;
+
+@Getter
+public class Block {
+	private final static int min = 0;
+	private final static int max = 11;
+	private final static int firstPickRange = 4;
+	private ArrayList<Integer> blackHole = new ArrayList<>();
+	
+	public ArrayList<Integer> generateFirst() {
+		// 게임 시작할 때 각 플레이어가 4개의 블록 pick
+		return null;
+		
+	}
+	public int generateOne() {
+		// 턴이 된 플레이어가 1개의 블럭을 뽑음
+		return 0;
+		
+	}
+}

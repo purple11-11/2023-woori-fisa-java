@@ -1,0 +1,45 @@
+package common;
+
+public class CalmModerator extends Moderator {
+
+	@Override
+	public void enterance() {
+		
+	}
+
+	@Override
+	public void guideStart(String player1Name, String player2Name) {
+		
+	}
+
+	@Override
+	public void guideFirstTurn() {
+		
+	}
+
+	@Override
+	public void guidePick(String playerName) {
+		
+	}
+
+	@Override
+	public void guideGuess(String playerName) {
+		
+	}
+
+	@Override
+	public void guideCorrect(String player1Name, String player2Name) {
+		
+	}
+
+	@Override
+	public void guideWrong(String playerName) {
+		
+	}
+
+	@Override
+	public void guideEnd(String playerName) {
+		
+	}
+
+}

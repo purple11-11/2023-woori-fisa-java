@@ -1,0 +1,12 @@
+import lombok.Setter;
+import lombok.Getter;
+
+package common;
+
+@Setter
+@Getter
+public interface Person {
+	private String name;
+
+	
+}

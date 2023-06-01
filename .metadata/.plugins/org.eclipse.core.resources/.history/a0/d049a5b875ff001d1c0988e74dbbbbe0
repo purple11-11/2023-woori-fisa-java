@@ -1,0 +1,23 @@
+package common;
+
+import java.util.ArrayList;
+
+public class Player implements Person {
+	private ArrayList<Integer> blocks = new ArrayList<Integer>();
+	
+	public void sort() {
+		
+	}
+	
+	public void pickFirst() {
+		
+	}
+	
+	public void picOne() {
+		
+	}
+	
+	public void guess(int index, int num) {
+		
+	}
+}

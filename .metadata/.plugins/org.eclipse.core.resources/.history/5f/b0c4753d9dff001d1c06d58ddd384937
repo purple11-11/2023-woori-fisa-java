@@ -1,0 +1,10 @@
+import common.Block;
+import common.CalmModerator;
+
+public class Main {
+
+	public static void main(String[] args) {
+	Block block = new Block();
+	System.out.println(block.generateFirst());
+	}
+}
